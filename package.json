@@ -1,0 +1,28 @@
+{
+  "name": "handsonnodejs",
+  "version": "1.0.0",
+  "description": "learning node js ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prashanthpavudala/HandsOnNodeJS.git"
+  },
+  "author": "Prashanth Reddy Pavudala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prashanthpavudala/HandsOnNodeJS/issues"
+  },
+  "homepage": "https://github.com/Prashanthpavudala/HandsOnNodeJS#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^9.0.0",
+    "nodemon": "^3.1.11"
+  }
+}
